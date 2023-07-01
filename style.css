@@ -1,0 +1,282 @@
+#content{
+    width: 70%;
+    margin: auto;
+    background:url("sliki/bg.jpg");
+}
+body{
+    background: #f6c9d5;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: midnightblue;
+    font-size: 20px;
+}
+a{
+    color:midnightblue;
+    text-decoration: none;
+}
+#menu{
+    list-style-type: none;
+    display: flex;
+    justify-content:space-around;
+    background-image: url("sliki/flower1.png");
+    padding: 30px;
+}
+#menu li img{
+    height: 100px;
+}
+#menu ul{
+    display: flex;
+    list-style-type: none;
+    padding-top: 30px;
+    padding-bottom: 35px;
+}
+#menu ul li{
+    margin-left: 40px;
+    border: 2px solid midnightblue;
+    padding: 8px;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: #f6c9d5;
+}
+#selected{
+    text-shadow: -2px 2px white;
+}
+#menu ul li a{
+    text-decoration: none;
+}
+#menu ul li:first-of-type{
+    margin-left: -220px;
+}
+#menu ul li:hover{
+    border: 2px solid white;
+}
+#main1{
+    list-style-type: none;
+    display: flex;
+}
+#main1 li:first-of-type{
+    width: 30%;
+}
+#main1 li:nth-of-type(2){
+    width: 70%;
+    text-align: center;
+    padding: 5px 10px;
+}
+#main1 #text{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: justify;
+}
+#main1 li img{
+    height: 400px;
+    margin: auto;
+}
+#contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#contact div:nth-of-type(1){
+    height:25px;
+    background: url("sliki/location.png") no-repeat;
+    background-size: contain;
+    padding-left:40px;
+    padding-top: 5px;
+}
+#contact div:nth-of-type(2){
+    height:25px;
+    background: url("sliki/date.png") no-repeat;
+    background-size: contain;
+    padding-left:40px;
+    padding-top: 5px;
+}
+#contact div:nth-of-type(3){
+    height:25px;
+    background: url("sliki/gmail.png") no-repeat;
+    background-size: contain;
+    padding-left:50px;
+    padding-top: 5px;
+}
+#contact div:nth-of-type(4){
+    height:30px;
+    background: url("sliki/finki.png") no-repeat;
+    background-size: contain;
+    padding-left:40px;
+    padding-top: 5px;
+}
+#contact div:nth-of-type(5){
+    height:25px;
+    background: url("sliki/facebook.png") no-repeat;
+    background-size: contain;
+    padding-left:40px;
+    padding-top: 5px;
+}
+#contact{
+    margin-top: 50px;
+    height: 150px;
+    align-content: space-evenly;
+}
+#contact a{
+    text-decoration: none;
+    color: midnightblue;
+}
+#footer, #header{
+    background-color: midnightblue;
+    color: #f6c9d5;
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+#p1{
+    width: 60%;
+    padding-left: 30px;
+    text-align: justify;
+    padding-top: 30px;
+}
+#p1 a{
+    text-decoration: none;
+}
+#image1{
+    height: 250px;
+    float:right;
+    margin-top: -170px;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+#image2{
+    height: 250px;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 80px;
+}
+#p2{
+    width: 60%;
+    padding-right: 30px;
+    text-align: justify;
+    padding-top: 30px;
+    float: right;
+    margin-top: -200px;
+}
+#p3{
+    width: 90%;
+    text-align: center;
+    padding-top: 30px;
+    margin: auto;
+}
+#gallery{
+    display: flex;
+    justify-content: space-evenly;
+}
+#gallery figure img{
+    height: 120px;
+    border-radius: 5px;
+    border: 2px dotted midnightblue;
+}
+#gallery figure figcaption{
+    text-align: center;
+    font-size: 15px;
+}
+#education{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin-left: -40px;
+    padding-bottom: 20px;
+}
+#education li{
+    width: 30%;
+    text-align: center;
+    font-size: 18px;
+}
+#education iframe,#education img{
+    margin: 5px;
+    width: 300px;
+    height: 200px;
+}
+.summary{
+    width: 90%;
+    margin: auto;
+}
+#summary{
+    list-style-image: url("sliki/flower2.png");
+}
+#music h3, #tv h3,#books h3, #travel h3{
+    margin-left: 50px;
+    text-shadow: -2px 2px white;
+}
+#music div{
+    width: 90%;
+    margin:auto;
+    text-align: justify;
+}
+#music table{
+    font-size: 15px;
+    width: 60%;
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+#music table td, #music table th{
+    border: 1px solid midnightblue;
+    padding: 5px;
+}
+#music img{
+    width: 180px;
+    float: right;
+    margin-top: -260px;
+    margin-right: 80px;
+    border-radius: 10px;
+}
+#tv div{
+    width: 50%;
+    margin-left: 250px;
+    margin-top: 50px;
+    text-align: justify;
+    margin-bottom: 100px;
+}
+#tv #image3{
+    height: 250px;
+    float: left;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+#tv #image4{
+    height: 250px;
+    float: right;
+    margin-top: -270px;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+#books div{
+    width: 90%;
+    margin:auto;
+    text-align: justify;
+}
+#travel #text1{
+    width: 48%;
+    float:right;
+    margin-top: -300px;
+    padding-right: 30px;
+    text-align: justify;
+}
+#travel ul{
+    list-style-image: url("sliki/plane.png");
+}
+#travel #gallery2{
+    width: 50%;
+    height: 320px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+#travel #gallery2 img{
+    height: 150px;
+    border-radius: 10px;
+    border: 2px dotted midnightblue;
+    width: 200px;
+}
+#education li{
+    border: 3px dotted midnightblue;
+    border-radius: 10px;
+}
